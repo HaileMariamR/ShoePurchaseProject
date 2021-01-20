@@ -7,6 +7,8 @@
     <title>Home</title>
     <link rel="stylesheet" href="./assets/CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 </head>
 <body>
 
@@ -28,7 +30,7 @@
                     <a class="nav-link" href="./service.html">Service</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./service.html">About</a>
+                    <a class="nav-link" href="./About.html">About</a>
                 </li>
 
             </ul>
@@ -52,26 +54,23 @@
 
 
 
-    <h3>Login<i class="fa fa-registered"></i></h3>
-    <hr>
-
-
+    <h3 style="text-align: center; margin-top: 40px;"><strong><i>Login</i></strong> </h3>
     
-    <div class="container-fluid">
+    <div id="loginepage" style="background-color:darkgray; width: 400px;margin-top: 30px;margin-bottom: 30px;padding: 30px;" class="container-fluid">
         <form action="">
-          
-                <label for="memail">Email : </label>
-                <input class="form-control" type="email" name="memail" id="memail">
+            <div class="form-group" style="margin: 30px;">
+            <span>   <i class="fas fa-user-alt"></i>
+                <input placeholder=`Email` class="form-control" type="email" name="memail" id="memail"></span>
             </div>
-            <div class="form-group">
-                <label for="pass">Password : </label>
-                <input class="form-control" type="password" name="pass" id="pass">
+            <div class="form-group" style="margin: 30px;">
+                <i class="fas fa-key"></i>
+                <input placeholder="password" class="form-control" type="password" name="pass" id="pass">
             </div>
             
-            <button type="submit" class="btn btn-primary btn-lg">Login</button>
         </form>
 
 
+        <button style="margin-left: 80px;" type="submit" class="btn btn-outline-danger btn-lg">Login</button>
 
 
 
@@ -82,16 +81,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-    
 
 
     <div class="container-fluid" style="background-color:rgb(8, 4, 61); padding: 2rem;">
